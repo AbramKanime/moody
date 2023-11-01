@@ -1,4 +1,4 @@
-# co5d345d6901a1bffc9ba88d4
+# Moody
 
 Quick start:
 
@@ -7,15 +7,11 @@ $ npm install
 $ npm start
 ````
 
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
+## About Moody
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+Moody is a mock social media app that allows the user to make posts and share how they are feeling. The purpose for building this project was to learn and practice the use of Firebase for storing and retrieving data. User authentication, real time displays, queries and error handling are all handled in this project.
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+The app was purely built using Vanilla Javascript, Html, and CSS for styling.
 
-Happy Coding!
+## Author
+### Abraham Onyeka Kanime
