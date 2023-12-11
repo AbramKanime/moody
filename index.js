@@ -271,9 +271,6 @@ function createPostHeader(postData) {
 }
 
 function createPostBody(postData) {
-    /*
-        <p>This is a post</p>
-    */
     const postBody = document.createElement("p")
     postBody.innerHTML = replaceNewlinesWithBrTags(postData.body)
     
@@ -284,9 +281,6 @@ function createPostUpdateButton(wholeDoc) {
     const postId = wholeDoc.id
     const postData = wholeDoc.data()
     
-    /* 
-        <button class="edit-color">Edit</button>
-    */
     const button = document.createElement("button")
     button.textContent = "Edit"
     button.classList.add("edit-color")
@@ -304,9 +298,6 @@ function createPostUpdateButton(wholeDoc) {
 function createPostDeleteButton(wholeDoc) {
     const postId = wholeDoc.id
     
-    /* 
-        <button class="delete-color">Delete</button>
-    */
     const button = document.createElement('button')
     button.textContent = 'Delete'
     button.classList.add("delete-color")
@@ -317,11 +308,6 @@ function createPostDeleteButton(wholeDoc) {
 }
 
 function createPostFooter(wholeDoc) {
-    /* 
-        <div class="footer">
-            <button>Edit</button>
-        </div>
-    */
     const footerDiv = document.createElement("div")
     footerDiv.className = "footer"
     
